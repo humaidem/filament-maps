@@ -1,0 +1,21 @@
+{
+    "name": "filament-maps",
+    "author": "Humaid Al Mansoori",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "build:js": "node bin/build",
+        "dev:js": "node bin/build --watch"
+    },
+    "devDependencies": {
+        "@hyrious/esbuild-plugin-style": "^0.3.5",
+        "esbuild": "^0.16.17",
+        "esbuild-plugin-class-modules": "^2.1.9"
+    },
+    "dependencies": {
+        "leaflet": "^1.9.4",
+        "leaflet-draw": "^1.0.4",
+        "leaflet-fullscreen": "^1.0.2",
+        "uuid": "^9.0.1"
+    }
+}
